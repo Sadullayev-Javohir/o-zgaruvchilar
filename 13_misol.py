@@ -4,7 +4,10 @@ True yoki False sifatida chiqaring.​
 
 num = int(input("Son kiriting: "))
 
-if num % 2:
-    print(False)
-else:
-    print(True)
+# if num % 2:
+#     print(False)
+# else:
+#     print(True)
+
+boolean = num % 2 == 0
+print(boolean)
